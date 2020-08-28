@@ -64,8 +64,8 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       #22A1ED;
+$secondary:      #04040C;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -303,7 +303,7 @@ $headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:        "Times New Roman", Times, serif;
 $headings-font-weight:        500 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              null !default;
+$headings-color:              #284876;
 
 $display1-size:               6rem !default;
 $display2-size:               5.5rem !default;
@@ -834,7 +834,7 @@ $card-cap-bg:                       rgba($black, .03) !default;
 $card-cap-color:                    null !default;
 $card-height:                       null !default;
 $card-color:                        null !default;
-$card-bg:                           $white !default;
+$card-bg:                           #FCFCFC;
 
 $card-img-overlay-padding:          1.25rem !default;
 
