@@ -50,7 +50,7 @@
           </nav>
           <div class="row mb-3">
               <div class="col">
-                  <input class="form-control" id="searcInput" type="text" placeholder="Rechercher..."
+                  <input class="form-control" id="searcInput" type="text" placeholder="Rechercher...">
               </div>
           </div>
 
@@ -127,6 +127,18 @@
 
 
     <!-- Optional JavaScript -->
+
+
+<script>
+    $(document).ready(function(){
+            $('#searchInput').on('keyup', function(){
+                var value = $(this).val().toLowerCase();
+                $('#lessonList .col-12').filter(function(){
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
